@@ -1,0 +1,32 @@
+
+SIMPLE COMMITS:
+# check work being done
+git status
+
+# make changes and add all files from parent
+git add .
+
+# commit the changes and name update
+git commit -m "updates 1.02"
+
+# add and comment on modified files only:
+git commit -am "comment"
+
+# check code diff with main
+git checkout main
+git diff $branch
+
+# push the new branch to repo:
+git push -u origin $branch
+
+
+
+SIMPLE BRANCHING:
+# display available branches
+git branch
+ 	
+# creates "new-branch" and switches to it		
+git checkout -b new-branch 
+
+# switch between branches
+git checkout $branch
